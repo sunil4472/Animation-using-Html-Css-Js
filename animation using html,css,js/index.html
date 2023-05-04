@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        
+  
+
+
+   
+    <script>
+        function rain(){
+            let amount = 200;
+            let body = document.querySelector('body');
+            let j = 0;
+            while(j < amount){
+                let drop = document.createElement('j');
+
+
+                let size = Math.random() * 5;
+                let posX = Math.floor(Math.random() * window.innerWidth);
+
+                let delay = Math.random() * -20;
+                let duration = Math.random() * 5;
+
+
+
+                drop.style.width = 0.2 + size+'px';
+                drop.style.left = posX + 'px';
+                drop.style.animationDelay = delay+'s';
+                drop.style.animationDuration= 0.5 + duration+'s';
+                body.appendChild(drop);
+                j++
+            }
+        }
+        rain();
+    </script>
+     <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:29;"></span>
+            <span style="--i:32;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:30;"></span>
+            <span style="--i:32;"></span>
+            <span style="--i:33;"></span>
+            <span style="--i:34;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:29;"></span>
+            <span style="--i:32;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:30;"></span>
+            <span style="--i:32;"></span>
+            <span style="--i:33;"></span>
+            <span style="--i:34;"></span>
+            
+        </div>
+    </div>
+ 
+</body>
+</html>
